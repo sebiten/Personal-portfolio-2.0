@@ -1,0 +1,26 @@
+
+:root {
+  --amarillo: rgb(239, 160, 5);
+   --verde: #304f3c;
+      --black: #0c0d0d;
+        --white: #e4dcd7;
+           
+      font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
