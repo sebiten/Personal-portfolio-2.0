@@ -1,6 +1,5 @@
-import image from "../../assets/img/mostaza-wallpaper.jpg";
 import avatar from "../../assets/img/avatar.png";
-import { FaLinkedin, FaTwitter, FaGit } from "react-icons/fa";
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import {
   Container,
@@ -13,14 +12,11 @@ import {
   SocialIcons,
   A,
 } from "./StylesHero";
-import { ButtonStyle } from "../Button/Button";
 import NavBar from "../NavBar/NavBar";
-import { NavBarContainer } from "../../Containers/navBarContainer";
 
 export function Hero() {
   return (
     <Container>
-      <Img src={image} alt="bg" />
       <Bg></Bg>
       <Centered>
         <Logo src={avatar} alt="sebiten" />
@@ -37,10 +33,9 @@ export function Hero() {
             <ImGithub size={45} />
           </A>
         </SocialIcons>
-        <NavBarContainer>
+        </Centered>
         <NavBar/>
-        </NavBarContainer>
-      </Centered>
+
     </Container>
   );
 }

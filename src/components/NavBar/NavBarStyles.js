@@ -1,34 +1,34 @@
 import styled from "styled-components";
 
 export const ContainerNav = styled.div`
-position: sticky;
-  margin-top: 22rem;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  width: 420px;
+  background: rgba(0, 0, 0, .7);
   color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 10px;
-  background: none;
   border: 2px solid var(--white);
 `;
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
 `;
 export const Enlace = styled.a`
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 1.1rem;
     background-image: linear-gradient(
     to right,
-    #54b3d6,
-    #54b3d6 50%,
-    #fff 50%);
+    rgb(239, 160, 5) 10%,
+    #304f3c 100%,
+    #fff 100%);
     background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -39,7 +39,7 @@ export const Enlace = styled.a`
   transition: all 0.3s ease-in-out;
   :before{
   content: '';
-  background: #54b3d6;
+  background: rgb(239, 160, 5);
   display: block;
   position: absolute;
   bottom: -3px;

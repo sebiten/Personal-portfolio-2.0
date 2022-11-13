@@ -1,4 +1,3 @@
-
 :root {
   --amarillo: rgb(239, 160, 5);
    --verde: #304f3c;
@@ -9,11 +8,6 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Outfit', sans-serif;
 font-family: 'Poppins', sans-serif;
-}
-
-html {
-  box-sizing: border-box;
-
 }
 *,
 :before,
