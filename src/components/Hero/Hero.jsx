@@ -3,7 +3,6 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import {
   Container,
-  Img,
   Centered,
   Logo,
   Bg,

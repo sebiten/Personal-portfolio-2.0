@@ -6,7 +6,7 @@ export const ContainerNav = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
-  width: 420px;
+  width: 400px;
   background: rgba(0, 0, 0, .7);
   color: white;
   padding: 1rem 2rem;
@@ -26,9 +26,8 @@ export const Enlace = styled.a`
     font-size: 1.1rem;
     background-image: linear-gradient(
     to right,
-    rgb(239, 160, 5) 10%,
-    #304f3c 100%,
-    #fff 100%);
+    rgb(239, 160, 5) 50%,
+    #304f3c 100%);
     background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
