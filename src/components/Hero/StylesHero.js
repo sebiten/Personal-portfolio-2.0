@@ -37,6 +37,7 @@ export const P = styled.p`
   text-align: center;
   font-size: 1.5rem;
   color: white;
+  margin-top:1rem;
 `;
 export const Container = styled.div`
   position: relative;
@@ -56,15 +57,15 @@ export const Maquina = styled.div`
   display: block;
   margin-top: 1rem;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 1px;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 22ch;
+  width: 24ch;
   font-size: 1.5rem;
   animation-delay: 3s;
-  animation: typing 5s steps(25),  infinite step-end alternate;
+  animation: typing 5s steps(25), blink 0.5s infinite step-end alternate;
   overflow: hidden;
   @media (min-width: 768px) {
     font-size: 2rem;
@@ -77,12 +78,19 @@ export const Maquina = styled.div`
       width: 0;
     }
   }
+   
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
  
 `;
 export const SocialIcons = styled.div`
   display: flex;
   gap: 1rem;
   justify-content: center;
+  margin-top: 1rem;
 `;
 export const A = styled.a`
   text-decoration: none;

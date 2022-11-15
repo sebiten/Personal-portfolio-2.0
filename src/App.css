@@ -1,6 +1,6 @@
 :root {
   --amarillo: rgb(239, 160, 5);
-   --verde: #304f3c;
+   --verde: rgb(48, 79, 60);
       --black: #0c0d0d;
         --white: #e4dcd7;
            
@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif;
 *,
 :before,
 :after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -22,6 +22,7 @@ body{
 
 p{ 
   color: white;
+  text-align: center;
 }
 h1, h2, h3 {
   color: white;

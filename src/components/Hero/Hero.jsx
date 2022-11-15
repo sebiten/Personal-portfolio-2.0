@@ -19,7 +19,7 @@ export function Hero() {
       <Bg></Bg>
       <Centered>
         <Logo src={avatar} alt="sebiten" />
-        <Maquina>Hi! I'm Sebastian Burgos.</Maquina>
+        <Maquina>{`Hi! I'm <Sebastian Burgos/>`}.</Maquina>
         <P>Front end developer</P>
         <SocialIcons>
           <A href="">
