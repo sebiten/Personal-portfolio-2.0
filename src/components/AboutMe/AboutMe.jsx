@@ -1,25 +1,27 @@
 import photo from "../../assets/img/seba.webp";
-import {Main,AboutGrid, Img, AboutMeTitle, Dowload, P, ImgContainer, InfoContainer } from './AboutMeStyles'
+import {Main,AboutGrid, Img, AboutMeTitle, Dowload, P, InfoContainer,BgContainer  } from './AboutMeStyles'
 function AboutMe() {
   return (
     <Main>
+      <BgContainer>
         <AboutGrid>
-          <ImgContainer>
+          <div>
             <Img src={photo} alt="" />
-          </ImgContainer>
+          </div>
           <InfoContainer>
-            <AboutMeTitle style={{width: '9ch', margin: '1rem'}}>About me</AboutMeTitle>
+            <AboutMeTitle>About me</AboutMeTitle>
             <P>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium deserunt labore ducimus assumenda, tenetur numquam
               quas dolorem beatae minima amet natus vero animi odit, ea, est
               molestiae aspernatur ab. Molestiae.
             </P>
-            <p>From: Salta, Argentina</p>
+            <P>From: Salta, Argentina</P>
             <Dowload>Dowload Cv</Dowload>
 
           </InfoContainer>
         </AboutGrid>
+        </BgContainer>
     </Main>
   );
 }

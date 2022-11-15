@@ -1,10 +1,10 @@
 import { imgtech } from "../../assets/img/index";
-import { SectionTech, Img, ImgTechContainer, Title, TitleTech, TechInfo } from "./StylesTech";
+import { SectionTech, Img, ImgTechContainer, Title, TitleTech, TechInfo, SpanTitles } from "./StylesTech";
 
 function Tech() {
   return (
     <SectionTech>
-      <Title>Technologies</Title>
+      <Title><SpanTitles>Technologies</SpanTitles></Title>
       <ImgTechContainer>
         <TechInfo>
           <Img src={imgtech.html} alt="" />

@@ -2,18 +2,26 @@ import styled from "styled-components";
 
 export const ContainerNav = styled.div`
   position: fixed;
+  z-index: 10;
   left: 50%;
   top: 95%;
   transform: translate(-50%, -50%);
-  width: 420px;
-  height: 60px;
+  width: 400px;
+  height: 90px;
   background: rgba(0, 0, 0, .7);
   border-radius: 10px;
-  border: 2px solid var(--white);
-  padding: .5rem 1rem;
+  border: 3px solid var(--amarillo);
+  padding: .8rem .5rem;
+  align-items: center;
+  justify-content: center;
   @media (min-width: 600px) {
-    width: 500px;
-    height: 60px;
+    width: 600px;
+    height: 90px;
+    
+  }
+  @media (min-width: 759px) {
+    height: 70px;
+
   }
 `;
 export const Nav = styled.nav`
@@ -21,16 +29,25 @@ export const Nav = styled.nav`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1rem;
+  @media (min-width: 768px) {
+  margin-top: 0;
+      
+  }
 `;
 export const Enlace = styled.a`
+display: flex;
+align-items: center;
+justify-content: center
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1.1rem;
+    margin-right: 1rem;
     background-image: linear-gradient(
     to right,
-    rgb(239, 160, 5) 50%,
-    #304f3c 100%);
+  #fff 0%,
+    #fff 100%);
     background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;

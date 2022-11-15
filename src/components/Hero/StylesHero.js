@@ -43,6 +43,52 @@ export const Container = styled.div`
   position: relative;
   text-align: center;
   height: 100vh;
+  position: relative;
+    --s: 100px; 
+  --c1: #304f3c;
+  --c2: #000;
+  
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  background:
+    calc( .7*var(--s)),
+    conic-gradient(from 90deg at 20% 10%,var(--c2) 50%,var(--c1) 0) 
+     0 0/var(--s) var(--s);
+  animation: m 10s infinite;
+
+@keyframes m {
+  0% {
+   background-position: 
+   calc( .9*var(--s)) calc( .9*var(--s)),
+    calc(-.1*var(--s)) calc(-.1*var(--s)),
+    calc(-.3*var(--s)) calc(-.3*var(--s)),0 0
+  }
+  25% {
+   background-position: 
+   calc(1.9*var(--s)) calc( .9*var(--s)),
+    calc(-1.1*var(--s)) calc(-.1*var(--s)),
+    calc(-1.3*var(--s)) calc(-.3*var(--s)),0 0
+  }
+  50% {
+   background-position: 
+   calc(1.9*var(--s)) calc(-.1*var(--s)),
+    calc(-1.1*var(--s)) calc( .9*var(--s)),
+    calc(-1.3*var(--s)) calc( .7*var(--s)),0 0
+  }
+  75% {
+   background-position: 
+   calc(2.9*var(--s)) calc(-.1*var(--s)),
+    calc(-2.1*var(--s)) calc( .9*var(--s)),
+    calc(-2.3*var(--s)) calc( .7*var(--s)),0 0
+  }
+ 
+  100% {
+   background-position: 
+   calc(2.9*var(--s)) calc(-1.1*var(--s)),
+    calc(-2.1*var(--s)) calc(1.9*var(--s)),
+    calc(-2.3*var(--s)) calc(1.7*var(--s)),0 0
+  }
+} 
+
 
 `;
 export const Centered = styled.div`
@@ -51,6 +97,7 @@ export const Centered = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
+  
 `;
 
 export const Maquina = styled.div`
