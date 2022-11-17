@@ -1,10 +1,15 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const ContainerNav = styled.div`
+export const ContainerNav = styled(motion.div)`
   position: fixed;
   z-index: 10;
-  left: 50%;
-  top: 95%;
+  left: 68%;
+  top: 90%;
+  @media (min-width: 768px) {
+    left: 50%;
+  top: 90%;
+  }
   transform: translate(-50%, -50%);
   width: 400px;
   height: 90px;
@@ -37,7 +42,7 @@ export const Nav = styled.nav`
 export const Enlace = styled.a`
 display: flex;
 align-items: center;
-justify-content: center
+justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
@@ -52,6 +57,7 @@ justify-content: center
   display: inline-block;
   padding: 5px 0;
   position: relative;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;

@@ -12,6 +12,7 @@ import {
   A,
 } from "./StylesHero";
 import NavBar from "../NavBar/NavBar";
+import { motion } from "framer-motion"
 
 export function Hero() {
   return (
@@ -19,9 +20,13 @@ export function Hero() {
       <Bg></Bg>
       <Centered>
         <Logo src={avatar} alt="sebiten" />
-        <Maquina>Hi! I'm Sebastian Burgos.</Maquina>
+        <Maquina
+        >Hi! I'm Sebastian Burgos.</Maquina>
         <P>Front end developer</P>
-        <SocialIcons>
+        <SocialIcons 
+         initial={{ x:0, opacity: 0, scale: 1 }}
+         animate={{ x: 0, opacity: 1, scale: 1 }}
+         transition={{ duration: 1 }}>
           <A href="">
             <FaLinkedin size={50} style={{color:'#946e26'}} />
           </A>

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 
@@ -24,7 +25,11 @@ export const Logo = styled.img`
 `;
 export const Bg = styled.div`
   position: absolute;
+  top: 58%;
+  @media (min-width: 768px) {
   top: 50%;
+      
+  }
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -109,13 +114,14 @@ export const Centered = styled.div`
 export const Maquina = styled.div`
   display: block;
   margin-top: 1rem;
+  margin: 0 auto;
   color: white;
   font-weight: 500;
   text-align: center;
   letter-spacing: 1px;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 24ch;
+  width: 22ch;
   font-size: 1.5rem;
   animation-delay: 3s;
   animation: typing 5s steps(25), blink 0.5s infinite step-end alternate;
@@ -139,7 +145,7 @@ export const Maquina = styled.div`
 }
  
 `;
-export const SocialIcons = styled.div`
+export const SocialIcons = styled(motion.div)`
   display: flex;
   gap: 1rem;
   justify-content: center;

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Main = styled.main`
@@ -7,7 +8,7 @@ export const Main = styled.main`
   position: relative;
   background: #2b1123;
 `;
-export const BgContainer = styled.div`
+export const BgContainer = styled(motion.div)`
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,24 +35,27 @@ export const AboutGrid = styled.div`
   }
 `;
 export const P = styled.p`
-  letter-spacing: 0.1em;
   text-align: justify;
   margin-top: 1rem;
   width: auto;
 `;
 export const FromSpan = styled.span`
   color: var(--terciario);
-`
+`;
 export const InfoContainer = styled.div`
   @media (max-width: 1050px) {
     width: 100%;
   }
 `;
 export const Img = styled.img`
-  width: 400px;
-  height: 380px;
+  width: 300px;
+  height: 280px;
+  @media (min-width: 768px) {
+    width: 420px;
+    height: 380px;
+  }
   border-radius: 50%;
-  border: 3px solid #304f3c;
+  border: 3px solid var(--terciario);
 `;
 export const AboutMeTitle = styled.div`
   display: block;
@@ -97,8 +101,9 @@ export const Dowload = styled.button`
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
   :hover {
-    box-shadow: inset 12em 0 var(--verde);
+    box-shadow: inset 12em 0 var(--secundario);
     cursor: pointer;
     color: #fff;
+    border: none;
   }
 `;
