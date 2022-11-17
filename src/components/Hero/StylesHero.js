@@ -29,8 +29,11 @@ export const Bg = styled.div`
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-`;
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+   height: 100vh;
+   width: 100%;
+`
 export const P = styled.p`
   background: transparent;
   font-weight: 500;
@@ -45,15 +48,18 @@ export const Container = styled.div`
   height: 100vh;
   position: relative;
     --s: 100px; 
-  --c1: #304f3c;
+  --c1: #2b1123;
   --c2: #000;
+  --c3: var(--amarillo);
   
   --_s: calc(2*var(--s)) calc(2*var(--s));
   background:
     calc( .7*var(--s)),
-    conic-gradient(from 90deg at 20% 10%,var(--c2) 50%,var(--c1) 0) 
+    conic-gradient(from 90deg at 20% 20%,var(--c2) 50%,var(--c1) 0) 
      0 0/var(--s) var(--s);
+     
   animation: m 10s infinite;
+
 
 @keyframes m {
   0% {

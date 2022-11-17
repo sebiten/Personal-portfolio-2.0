@@ -1,8 +1,8 @@
 import photo from "../../assets/img/seba.webp";
-import {Main,AboutGrid, Img, AboutMeTitle, Dowload, P, InfoContainer,BgContainer  } from './AboutMeStyles'
+import {Main,AboutGrid, Img, AboutMeTitle, Dowload, P, InfoContainer,BgContainer, FromSpan  } from './AboutMeStyles'
 function AboutMe() {
   return (
-    <Main>
+    <Main id='about'>
       <BgContainer>
         <AboutGrid>
           <div>
@@ -11,12 +11,9 @@ function AboutMe() {
           <InfoContainer>
             <AboutMeTitle>About me</AboutMeTitle>
             <P>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium deserunt labore ducimus assumenda, tenetur numquam
-              quas dolorem beatae minima amet natus vero animi odit, ea, est
-              molestiae aspernatur ab. Molestiae.
+            My name is Sebastian Burgos I am passionate about programming and technologies, i am 23 years old. Love all kind of challenges. I am a fast learner person, motivated for constant personal growing.
             </P>
-            <P>From: Salta, Argentina</P>
+            <P><FromSpan>From:</FromSpan> Salta, Argentina</P>
             <Dowload>Dowload Cv</Dowload>
 
           </InfoContainer>

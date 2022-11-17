@@ -1,20 +1,22 @@
 :root {
-  --amarillo: rgb(239, 160, 5);
-   --verde: rgb(48, 79, 60);
-      --black: #0c0d0d;
-        --white: #e4dcd7;
+  --primario: #5c1923;
+  --secundario:#2b1123;
+  --terciario:rgb(148, 110, 38);
+  --cuarto:#7c1228;
+  --quinto:#5c1515;
            
       font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Outfit', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
-*,
+*,html
 :before,
 :after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{

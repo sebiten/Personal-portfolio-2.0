@@ -10,7 +10,6 @@ export const ContainerNav = styled.div`
   height: 90px;
   background: rgba(0, 0, 0, .7);
   border-radius: 10px;
-  border: 3px solid var(--amarillo);
   padding: .8rem .5rem;
   align-items: center;
   justify-content: center;

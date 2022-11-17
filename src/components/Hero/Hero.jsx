@@ -15,7 +15,7 @@ import NavBar from "../NavBar/NavBar";
 
 export function Hero() {
   return (
-    <Container>
+    <Container id='home'>
       <Bg></Bg>
       <Centered>
         <Logo src={avatar} alt="sebiten" />
@@ -23,13 +23,13 @@ export function Hero() {
         <P>Front end developer</P>
         <SocialIcons>
           <A href="">
-            <FaLinkedin size={50} style={{color:'#efa005'}} />
+            <FaLinkedin size={50} style={{color:'#946e26'}} />
           </A>
           <A href="">
-            <FaTwitter size={50} style={{color:'#efa005'}} />
+            <FaTwitter size={50} style={{color:'#946e26'}} />
           </A>
           <A href="">
-            <ImGithub size={45} style={{color:'#efa005'}} />
+            <ImGithub size={45} style={{color:'#946e26'}} />
           </A>
         </SocialIcons>
         </Centered>
