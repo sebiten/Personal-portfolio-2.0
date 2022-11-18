@@ -111,40 +111,6 @@ export const Centered = styled.div`
   
 `;
 
-export const Maquina = styled.div`
-  display: block;
-  margin-top: 1rem;
-  margin: 0 auto;
-  color: white;
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: 1px;
-  white-space: nowrap;
-  border-right: 4px solid;
-  width: 22ch;
-  font-size: 1.5rem;
-  animation-delay: 3s;
-  animation: typing 5s steps(25), blink 0.5s infinite step-end alternate;
-  overflow: hidden;
-  @media (min-width: 768px) {
-    font-size: 2rem;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 1rem;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-   
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
- 
-`;
 export const SocialIcons = styled(motion.div)`
   display: flex;
   gap: 1rem;

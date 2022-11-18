@@ -16,7 +16,7 @@ function CardTech({imgtech, description, name}) {
 const Span = styled.span`
   width: 80px;
   height: 50px;
-  background: rgba(47, 47, 47, 0.1);
+  background: rgba(249, 249, 249, 0.2);
   border-radius: 10px;
   padding: .2rem 2rem;
 
@@ -27,7 +27,6 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
-  width: 100%;
 `
 const TechName = styled.h2`
     text-transform: uppercase;

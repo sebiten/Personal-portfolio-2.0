@@ -4,7 +4,9 @@ import js from "../img/03-tec.png";
 import sass from "../img/04-tec.png";
 import react from "../img/05-tec.png";
 import git from "../img/git.png";
-import tailwindcss from "../img/tailwindcss.png";
+import vscode from "../img/vscode.png";
+
+import tailwind from "../img/tailwind.png";
 import styled from "../img/styled.png";
 import website from "../img/web img.png";
 import musicfestival from "../img/proy2.webp";
@@ -18,8 +20,9 @@ export const imgtech = {
   sass,
   react,
   git,
-  tailwindcss,
   styled,
+  vscode,
+  tailwind
 };
 export const projects = {
   website,

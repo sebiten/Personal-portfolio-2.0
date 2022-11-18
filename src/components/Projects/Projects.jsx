@@ -1,23 +1,33 @@
-import { GridProjects, ImgProjects } from "./StylesProyect";
-import { projects } from "../../assets/img/index";
+import { GridProjects, TitleProjects } from "./StylesProyect";
+
+
+import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
+import Card from "./CardProjects";
+
+
+
 
 function Projects() {
+  const [text, count] = useTypewriter({
+    words: ["<Projects/>"],
+    delaySpeed: 2000,
+  });
   return (
-    <GridProjects>
-      <div>
-        <ImgProjects src={projects.website} alt="" />
-        <img src="" alt="" />
-      </div>
-      <div>
-        <ImgProjects src={projects.musicfestival} alt="" />
-      </div>
-      <div>
-        <ImgProjects src={projects.cripto} alt="" />
-      </div>
-      <div>
-        <ImgProjects src={projects.popsout} alt="" />
-      </div>
-    </GridProjects>
+    <div>
+      <TitleProjects
+        initial={{ opacity: 0, scale: 1 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 3 }}
+      >
+        {text}
+        <Cursor cursorColor="#946e26" />
+      </TitleProjects>
+      <GridProjects>
+        <Card />
+      </GridProjects>
+    </div>
   );
 }
 
