@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   position: relative;
-  height: 100vh;
+  height: 100%;
   padding: 10rem;
   position: relative;
-  background: #2b1123;
+  background: rgb(43, 17, 35, 0.4);
 `;
 export const BgContainer = styled(motion.div)`
   position: absolute;
@@ -15,8 +15,20 @@ export const BgContainer = styled(motion.div)`
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 5rem;
+  border-radius: 222px;
 
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.2);
+`;
+export const BgContainer2 = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  width: 700px;
+  padding: 5rem;
+  border-radius: 40%;
+
+  background: rgba(0, 0, 0, 0.2);
 `;
 export const AboutGrid = styled.div`
   display: grid;
@@ -29,17 +41,17 @@ export const AboutGrid = styled.div`
   @media (min-width: 975px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
+    margin: 0 0;
     transform: none;
-    width: 80%;
+    width: 100%;
   }
 `;
-export const P = styled.p`
+export const P = styled(motion.p)`
   text-align: justify;
   margin-top: 1rem;
   width: auto;
 `;
-export const FromSpan = styled.span`
+export const FromSpan = styled(motion.span)`
   color: var(--terciario);
 `;
 export const InfoContainer = styled.div`
@@ -47,7 +59,7 @@ export const InfoContainer = styled.div`
     width: 100%;
   }
 `;
-export const Img = styled.img`
+export const Img = styled(motion.img)`
   width: 300px;
   height: 280px;
   @media (min-width: 768px) {
@@ -55,9 +67,9 @@ export const Img = styled.img`
     height: 380px;
   }
   border-radius: 50%;
-  border: 3px solid var(--terciario);
-`;
-export const AboutMeTitle = styled.div`
+  border: 3px solid black;
+`
+export const AboutMeTitle = styled(motion.div)`
   display: block;
   color: white;
   font-weight: 500;
@@ -88,7 +100,7 @@ export const AboutMeTitle = styled.div`
     }
   }
 `;
-export const Dowload = styled.button`
+export const Dowload = styled(motion.button)`
   letter-spacing: 1px;
   font-weight: 700;
   height: 3em;

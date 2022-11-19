@@ -33,7 +33,11 @@ function Tech() {
           <Cursor cursorColor="#461c39" />
         </Title>
       </TitleTech>
-      <ImgTechContainer>
+      <ImgTechContainer
+           initial={{ opacity: 0 }}
+           whileInView={{ opacity: 1 }}
+           transition={{ duration: 1.5 }}
+      >
         <CardTech imgtech={imgtech.html} name={"html"} />
         <CardTech imgtech={imgtech.css} name={"css"} />
         <CardTech imgtech={imgtech.js} name={"Java Script"} />

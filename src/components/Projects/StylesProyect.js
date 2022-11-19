@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { motion } from "framer-motion";
+
 
 export const GridProjects = styled.div`
     display:grid;
-    background-color: var(--secundario);
     height: 100%;
     margin-top: -4rem;
     @media (min-width: 768px) {
@@ -13,9 +14,17 @@ export const GridProjects = styled.div`
     }
     padding: 10rem;
 `
-export const TitleProjects = styled.h2`
+export const TechLogoDesc = styled.img`
+    width: 30px;    
+    height: 30px;    
+`
+export const H2 = styled.h2`
     text-align: center;
-    background-color: var(--secundario);
-    padding: 2rem;
-    padding-top: 10rem;
+    font-size: 2rem;
+  font-weight: 500;
+
+`
+export const ProjectsSection = styled(motion.section)`
+    padding-top: 5rem;
+    background-color: rgb(43, 17, 35, 0.4);
 `

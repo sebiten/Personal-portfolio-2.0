@@ -12,9 +12,10 @@ export const SectionTech = styled(motion.section)`
 
 `;
 export const Title = styled(motion.h2)`
-  color: var(--terciario);
+  color: white;
   text-align: center;
   font-size: 2rem;
+  font-weight: 500;
 
 `
 

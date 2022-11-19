@@ -5,10 +5,13 @@ import sass from "../img/04-tec.png";
 import react from "../img/05-tec.png";
 import git from "../img/git.png";
 import vscode from "../img/vscode.png";
+import vite from '../img/vite.png'
+
 
 import tailwind from "../img/tailwind.png";
 import styled from "../img/styled.png";
 import website from "../img/web img.png";
+import websitetwo from "../img/foio2.png";
 import musicfestival from "../img/proy2.webp";
 import cripto from "../img/criptos.png";
 import popsout from "../img/popsout.png";
@@ -22,11 +25,13 @@ export const imgtech = {
   git,
   styled,
   vscode,
-  tailwind
+  tailwind,
+  vite
 };
 export const projects = {
   website,
   musicfestival,
   cripto,
   popsout,
+  websitetwo
 };
