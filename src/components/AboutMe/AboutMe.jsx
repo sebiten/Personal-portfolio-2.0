@@ -20,11 +20,7 @@ function AboutMe() {
     >
       <AboutGrid>
         <div>
-          <Img src={photo} alt="" 
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 2.1 }}
-          />
+          <Img src={photo} alt="" />
         </div>
         <InfoContainer>
           <AboutMeTitle
@@ -50,11 +46,7 @@ function AboutMe() {
           >
             <FromSpan>From:</FromSpan> Salta, Argentina
           </P>
-          <Dowload
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1.5 }}
-          >Dowload Cv</Dowload>
+          <Dowload>Dowload Cv</Dowload>
         </InfoContainer>
       </AboutGrid>
     </Main>

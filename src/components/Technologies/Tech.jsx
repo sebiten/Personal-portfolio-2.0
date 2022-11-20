@@ -40,7 +40,7 @@ function Tech() {
       >
         <CardTech imgtech={imgtech.html} name={"html"} />
         <CardTech imgtech={imgtech.css} name={"css"} />
-        <CardTech imgtech={imgtech.js} name={"Java Script"} />
+        <CardTech imgtech={imgtech.js} name={"JavaScript"} />
         <CardTech imgtech={imgtech.react} name={"React"} />
         <CardTech imgtech={imgtech.tailwind} name={"Tailwind"} />
         <CardTech imgtech={imgtech.styled} name={"Styled"} />

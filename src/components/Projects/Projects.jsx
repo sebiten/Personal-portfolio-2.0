@@ -15,6 +15,7 @@ function Projects() {
   });
   return (
     <ProjectsSection
+    id='projects'
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 2 }}

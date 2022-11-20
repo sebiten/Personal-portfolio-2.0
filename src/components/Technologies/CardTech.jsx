@@ -14,7 +14,7 @@ function CardTech({imgtech, description, name}) {
   )
 }
 const Span = styled.span`
-  width: 80px;
+  width: 100%;
   height: 50px;
   background: rgba(249, 249, 249, 0.2);
   border-radius: 10px;

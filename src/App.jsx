@@ -5,7 +5,7 @@ import AboutMe from './components/AboutMe/AboutMe'
 import Tech from './components/Technologies/Tech'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
-// import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Tech/>
       <Projects />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </ContainerHero>
   )
 }

@@ -4,11 +4,15 @@ import styled from "styled-components";
 export const ContainerNav = styled(motion.div)`
   position: fixed;
   z-index: 10;
-  left: 68%;
+  left: 50%;
   top: 90%;
-  @media (min-width: 768px) {
+  @media (min-width: 728px) {
     left: 50%;
-  top: 90%;
+    top: 90%;
+  }
+  @media (max-width: 600px ) {
+    display: none;
+      
   }
   transform: translate(-50%, -50%);
   width: 400px;

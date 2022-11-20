@@ -27,7 +27,8 @@ export const TechLogoDesc = styled.img`
 export const H2 = styled.h2`
     text-align: center;
     font-size: 2rem;
-  font-weight: 500;
+     font-weight: 500;
+     margin-top: 1.5rem;
 
 `
 export const ProjectsSection = styled(motion.section)`

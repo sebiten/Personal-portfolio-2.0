@@ -101,7 +101,6 @@ export const AboutMeTitle = styled(motion.div)`
   }
 `;
 export const Dowload = styled(motion.button)`
-  letter-spacing: 1px;
   font-weight: 700;
   height: 3em;
   width: 11em;
@@ -113,7 +112,7 @@ export const Dowload = styled(motion.button)`
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
   :hover {
-    box-shadow: inset 12em 0 var(--secundario);
+    box-shadow: inset 12em 0 var(--quinto);
     cursor: pointer;
     color: #fff;
     border: none;
