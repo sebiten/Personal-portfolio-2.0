@@ -58,7 +58,7 @@ function Projects() {
         imgtech={imgtech.react} 
         imgtech2={imgtech.styled} 
         imgtech3={imgtech.vite}
-        description={'Cryptocurrency quote fetch with the following technologies '}>
+        description={'Cryptocurrency quote fetching API with the following technologies '}>
         </Card>
         <Card 
              initial={{ opacity: 0 }}
