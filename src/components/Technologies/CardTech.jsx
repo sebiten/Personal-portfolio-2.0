@@ -27,6 +27,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  
 `
 const TechName = styled.h2`
     text-transform: uppercase;

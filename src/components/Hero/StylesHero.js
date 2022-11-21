@@ -25,7 +25,7 @@ export const Logo = styled.img`
 `;
 export const Bg = styled.div`
   position: absolute;
-  top: 58%;
+  top: 50%;
   @media (min-width: 768px) {
   top: 50%;
       
