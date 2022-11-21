@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import { imgtech } from "../../assets/img/index";
 import styled from "styled-components";
 
-function Card({ imgtech, imgtech2, imgtech3, projects, description }) {
+function Card({ imgtech, imgtech2, imgtech3, projects, description, url, repository, imgtech4 }) {
   return (
     <CardProjects>
       <CardWrapper>
-        <Enlace href="">
+        <Enlace target="blank" href={url}>
           <ProjectImg src={projects} alt="" />
         </Enlace>
         <P>{description}:</P>
@@ -15,10 +15,15 @@ function Card({ imgtech, imgtech2, imgtech3, projects, description }) {
           <Techimg src={imgtech} alt="logotech" />
           <Techimg src={imgtech2} alt="logotech" />
           <Techimg src={imgtech3} alt="logotech" />
+          <Techimg src={imgtech4} alt="logotech" />
         </ImgWrapper>
         <ButtonWrapper>
-          <EnlaceCards>Repository</EnlaceCards>
-          <EnlaceCards>Website</EnlaceCards>
+          <EnlaceCards target="blank" href={repository}>
+            Repository
+          </EnlaceCards>
+          <EnlaceCards target="blank" href={url}>
+            Website
+          </EnlaceCards>
         </ButtonWrapper>
       </CardWrapper>
     </CardProjects>
@@ -31,32 +36,32 @@ const CardProjects = styled(motion.div)`
   background: rgba(0, 0, 0, 0.4);
 `;
 const ButtonWrapper = styled.div`
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
-`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+`;
 const EnlaceCards = styled.a`
-font-size: .9rem;
-width: 120px;
-height: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-background-color: var(--terciario);
-border-radius: 10px;
-:hover{
-  background-color: var(--secundario);
-  transition: 1s;
-  color: white;
-  cursor: pointer;
-}
-
-`
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: black;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--terciario);
+  border-radius: 10px;
+  :hover {
+    background-color: var(--secundario);
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+  }
+`;
 const Enlace = styled.a`
   filter: grayscale(1);
   transition: 1s;

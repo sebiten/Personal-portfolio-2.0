@@ -14,24 +14,24 @@ function Contact() {
     <Cursor />
     </ContactTitle>
     <GridSocial id="contact">
-        <a href="">
+        <a href="https://www.linkedin.com/in/sebdevspace/">
        <SocialCard CardBg="Linkedin">
           <FaLinkedin color="white" size={50} />
        </SocialCard>
         </a>
-        <a href="">
+        <a href="mailto:sebdevspace@gmail.com">
       <SocialCard CardBg="Gmail">
           <SiGmail color="white" size={50} />
       </SocialCard>
         </a>
-        <a href="">
+        <a href="https://github.com/sebiten">
       <SocialCard CardBg="Github">
           <FaGithub color="white" size={50} />
       </SocialCard>
         </a>
      
-        <a href="">
-      <SocialCard CardBg="Linkedin">
+        <a href="https://twitter.com/SebitenB">
+      <SocialCard CardBg="Twitter">
           <FaTwitter color="white" size={50} />
       </SocialCard>
         </a>

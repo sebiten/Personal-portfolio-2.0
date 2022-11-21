@@ -47,6 +47,9 @@ function Tech() {
         <CardTech imgtech={imgtech.sass} name={"sass"} />
         <CardTech imgtech={imgtech.git} name={"git"} />
         <CardTech imgtech={imgtech.vscode} name={"VsCode"} />
+        <CardTech imgtech={imgtech.strapi} name={"Strapi"} />
+        <CardTech imgtech={imgtech.remix} name={"Remix run"} />
+        <CardTech imgtech={imgtech.mui} name={"MaterialUI"} />
       </ImgTechContainer>
     </SectionTech>
   );

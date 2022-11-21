@@ -32,8 +32,6 @@ export const ImgTechContainer = styled.div`
   place-content: center;
   place-items: center;
   background-color: black;
-
-  padding: 2rem;
   @media (min-width: 550px) {
     grid-template-columns: repeat(2, 2fr);
  
@@ -46,7 +44,7 @@ export const ImgTechContainer = styled.div`
   @media (min-width: 1200px ) {
     grid-template-columns: repeat(3, 3fr);
   }
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 
 `;

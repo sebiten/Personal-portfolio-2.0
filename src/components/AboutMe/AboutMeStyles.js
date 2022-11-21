@@ -8,27 +8,9 @@ export const Main = styled.main`
   position: relative;
   background: rgb(43, 17, 35, 0.4);
 `;
-export const BgContainer = styled(motion.div)`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 5rem;
-  border-radius: 222px;
 
-  background: rgba(0, 0, 0, 0.2);
-`;
-export const BgContainer2 = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-30%, -50%);
-  width: 700px;
-  padding: 5rem;
-  border-radius: 40%;
-
-  background: rgba(0, 0, 0, 0.2);
+export const Photo = styled.div`
+background-color: transparent;
 `;
 export const AboutGrid = styled.div`
   display: grid;
@@ -100,11 +82,14 @@ export const AboutMeTitle = styled(motion.div)`
     }
   }
 `;
-export const Dowload = styled(motion.button)`
+export const Dowload = styled.a`
+display: block;   
+width: 11em;
+margin-top: 1rem;
+text-align: center;
   font-weight: 700;
-  height: 3em;
-  width: 11em;
-  margin-top: 1rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
   background: var(--terciario);
   color: #000;
   font-size: 1.05em;

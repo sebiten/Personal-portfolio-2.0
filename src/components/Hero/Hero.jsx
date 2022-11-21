@@ -40,13 +40,13 @@ export function Hero() {
           animate={{ x: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <A href="">
+          <A target='blank' href="https://www.linkedin.com/in/sebdevspace/">
             <FaLinkedin size={50} style={{ color: "#946e26" }} />
           </A>
-          <A href="">
+          <A target='blank' href="https://twitter.com/SebitenB">
             <FaTwitter size={50} style={{ color: "#946e26" }} />
           </A>
-          <A href="">
+          <A target='blank' href="https://github.com/sebiten">
             <ImGithub size={45} style={{ color: "#946e26" }} />
           </A>
         </SocialIcons>

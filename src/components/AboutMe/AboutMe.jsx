@@ -6,6 +6,7 @@ import {
   AboutMeTitle,
   Dowload,
   P,
+  Photo,
   InfoContainer,
   FromSpan,
 } from "./AboutMeStyles";
@@ -19,9 +20,9 @@ function AboutMe() {
       transition={{ duration: 3 }}
     >
       <AboutGrid>
-        <div>
+        <Photo>
           <Img src={photo} alt="" />
-        </div>
+        </Photo>
         <InfoContainer>
           <AboutMeTitle
             initial={{ opacity: 0 }}
@@ -46,7 +47,7 @@ function AboutMe() {
           >
             <FromSpan>From:</FromSpan> Salta, Argentina
           </P>
-          <Dowload>Dowload Cv</Dowload>
+          <Dowload target='blank' href='src\Cv\CV RESUME.pdf'>Dowload Cv</Dowload>
         </InfoContainer>
       </AboutGrid>
     </Main>
