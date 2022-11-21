@@ -10,6 +10,7 @@ import {
   InfoContainer,
   FromSpan,
 } from "./AboutMeStyles";
+import cv from '../../Cv/CV RESUME.pdf'
 function AboutMe() {
   return (
     <Main
@@ -47,7 +48,7 @@ function AboutMe() {
           >
             <FromSpan>From:</FromSpan> Salta, Argentina
           </P>
-          <Dowload target='blank' href='src\Cv\CV RESUME.pdf'>Dowload Cv</Dowload>
+          <Dowload target='blank' href={cv}>Dowload Cv</Dowload>
         </InfoContainer>
       </AboutGrid>
     </Main>
