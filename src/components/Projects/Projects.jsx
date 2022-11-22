@@ -64,18 +64,18 @@ function Projects() {
           }
         ></Card>
         <Card
-          repository={"https://github.com/sebiten/Cryptos-now"}
-          url={"https://aquamarine-froyo-207d3e.netlify.app"}
+          repository={"https://github.com/sebiten/Spotify-2.0"}
+          url={"https://lyriks-musicplayer.netlify.app/"}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
-          projects={projects.cripto}
+          projects={projects.musicplayer}
           imgtech={imgtech.react}
-          imgtech2={imgtech.styled}
+          imgtech2={imgtech.tailwind}
           imgtech3={imgtech.vite}
-          imgtech4={imgtech.vscode}
+          imgtech4={imgtech.redux}
           description={
-            "Cryptos Now fetching API with the following technologies "
+            "Music player responsive with the following technologies "
           }
         ></Card>
         <Card

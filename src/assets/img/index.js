@@ -9,6 +9,7 @@ import vite from '../img/vite.png'
 import remix from '../img/remix.png'
 import strapi from '../img/strapi.png'
 import mui from '../img/mui.png'
+import redux from '../img/Redux.png'
 
 
 import tailwind from "../img/tailwind.png";
@@ -18,6 +19,7 @@ import websitetwo from "../img/foio2.png";
 import musicfestival from "../img/proy2.webp";
 import cripto from "../img/criptos.png";
 import popsout from "../img/popsout.png";
+import musicplayer from "../img/lyriks.png";
 
 export const imgtech = {
   html,
@@ -32,12 +34,14 @@ export const imgtech = {
   vite,
   remix,
   strapi,
-  mui
+  mui,
+  redux
 };
 export const projects = {
   website,
   musicfestival,
   cripto,
   popsout,
-  websitetwo
+  websitetwo,
+  musicplayer
 };
