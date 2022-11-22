@@ -7,10 +7,6 @@ export const FooterSection = styled.section`
     padding: 2rem;
 
 `
-export const TextFooter = styled.h3`
-    margin-top: 4rem;
-    color: lightblue;
-`
 
 export const LogoSeb  = styled.img`
     width: 200px;

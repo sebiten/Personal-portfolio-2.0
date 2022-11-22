@@ -6,13 +6,10 @@ import { SectionTech, ImgTechContainer, TitleTech, Title } from "./StylesTech";
 
 function Tech() {
   const [text, count] = useTypewriter({
-    words: [
-      "<Tecnologies/>",
-      "Skills.jsx"
-    ],
+    words: ["<Tecnologies/>", "Skills.jsx"],
     loop: true,
     delaySpeed: 2000,
-  })
+  });
   return (
     <SectionTech
       initial={{ opacity: 0, scale: 1 }}
@@ -34,9 +31,9 @@ function Tech() {
         </Title>
       </TitleTech>
       <ImgTechContainer
-           initial={{ opacity: 0 }}
-           whileInView={{ opacity: 1 }}
-           transition={{ duration: 1.5 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
       >
         <CardTech imgtech={imgtech.html} name={"html"} />
         <CardTech imgtech={imgtech.css} name={"css"} />

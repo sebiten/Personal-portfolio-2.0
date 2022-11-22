@@ -3,7 +3,16 @@ import { motion } from "framer-motion";
 import { imgtech } from "../../assets/img/index";
 import styled from "styled-components";
 
-function Card({ imgtech, imgtech2, imgtech3, projects, description, url, repository, imgtech4 }) {
+function Card({
+  imgtech,
+  imgtech2,
+  imgtech3,
+  projects,
+  description,
+  url,
+  repository,
+  imgtech4,
+}) {
   return (
     <CardProjects>
       <CardWrapper>

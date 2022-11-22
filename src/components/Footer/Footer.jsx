@@ -1,7 +1,9 @@
 import logo from "../../assets/img/sebdevspace.png";
-import { LogoSeb, FooterSection, TextFooter } from "./StylesFooter";
+import { LogoSeb, FooterSection  } from "./StylesFooter";
 
 function Footer() {
+  const current = new Date();
+  const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
   return (
     <FooterSection>
       <div>
@@ -9,6 +11,7 @@ function Footer() {
       </div>
       <div>
         <h3>Made with love</h3>
+        <p>{date}</p>
       </div>
     </FooterSection>
   );

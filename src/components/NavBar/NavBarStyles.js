@@ -7,8 +7,8 @@ export const ContainerNav = styled(motion.div)`
   left: 50%;
   top: 90%;
   @media (min-width: 728px) {
-    left: 50%;
-    top: 90%;
+    left: 49%;
+    top: 89%;
   }
   @media (max-width: 600px ) {
     display: none;

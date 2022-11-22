@@ -2,15 +2,7 @@ import avatar from "../../assets/img/avatar.png";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
 import { ImGithub } from "react-icons/im";
-import {
-  Container,
-  Centered,
-  Logo,
-  Bg,
-  P,
-  SocialIcons,
-  A,
-} from "./StylesHero";
+import { Container, Centered, Logo, Bg, P, SocialIcons, A } from "./StylesHero";
 import NavBar from "../NavBar/NavBar";
 
 export function Hero() {
@@ -30,8 +22,8 @@ export function Hero() {
         <Logo src={avatar} alt="sebiten" />
         <div>
           <h1>
-          <span>{text}</span>
-          <Cursor cursorColor="#946e26" />
+            <span>{text}</span>
+            <Cursor cursorColor="#946e26" />
           </h1>
         </div>
         <P>Front end developer</P>
@@ -40,13 +32,13 @@ export function Hero() {
           animate={{ x: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          <A target='blank' href="https://www.linkedin.com/in/sebdevspace/">
+          <A target="blank" href="https://www.linkedin.com/in/sebdevspace/">
             <FaLinkedin size={50} style={{ color: "#946e26" }} />
           </A>
-          <A target='blank' href="https://twitter.com/SebitenB">
+          <A target="blank" href="https://twitter.com/SebitenB">
             <FaTwitter size={50} style={{ color: "#946e26" }} />
           </A>
-          <A target='blank' href="https://github.com/sebiten">
+          <A target="blank" href="https://github.com/sebiten">
             <ImGithub size={45} style={{ color: "#946e26" }} />
           </A>
         </SocialIcons>
