@@ -49,7 +49,7 @@ function AboutMe() {
           </P>
           <Dowload
             target="blank"
-            href="https://drive.google.com/file/d/1kvg260Q9m-OCGKH8EoWFsDIVJ5-G5BSL/view"
+            href="https://drive.google.com/file/d/1kvg260Q9m-OCGKH8EoWFsDIVJ5-G5BSL/view?usp=sharing"
           >
             Dowload Cv
           </Dowload>
