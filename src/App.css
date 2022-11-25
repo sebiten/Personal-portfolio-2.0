@@ -1,0 +1,33 @@
+:root {
+  --primario: #5c1923;
+  --secundario:hwb(318 7% 83%);
+  --terciario:#946e26;
+  --cuarto:#7c1228;
+  --quinto:#5c1515;
+           
+      font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+*,html
+:before,
+:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  
+}
+
+body{
+  background-color: #0c0d0d;
+}
+
+p{ 
+  color: white;
+  text-align: center;
+}
+h1, h2, h3 {
+  color: white;
+}
