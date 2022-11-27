@@ -5,7 +5,7 @@ import { FiHome, FiUser, FiPhone, FiPaperclip } from "react-icons/fi";
 function NavBar() {
   return (
     <ContainerNav
-      initial={{ x: -1100, opacity: 0, scale: 1 }}
+      initial={{ x: -700, opacity: 0, scale: 1 }}
       animate={{ x: -280, opacity: 1, scale: 1 }}
       transition={{ duration: 2.2 }}
     >

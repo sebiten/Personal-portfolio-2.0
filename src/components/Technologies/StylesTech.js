@@ -5,10 +5,7 @@ export const SectionTech = styled(motion.section)`
   background-color: black;
   width: 100%;
   position: relative;
-  padding: 0rem;
-   @media (min-width: 768px) {
-       padding: 10rem;
-   }
+  padding-bottom: 8rem;
 
 `;
 export const Title = styled(motion.h2)`
@@ -16,6 +13,12 @@ export const Title = styled(motion.h2)`
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
+  padding: 5rem;
+  @media (min-width: 768px) {
+       padding: 6rem;
+      font-size: 2.5rem;
+
+   }
 
 `
 
