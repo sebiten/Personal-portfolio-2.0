@@ -34,7 +34,7 @@ export const Bg = styled.div`
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   position: relative;
    height: 100vh;
    width: 100%;

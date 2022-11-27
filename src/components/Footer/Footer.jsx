@@ -11,7 +11,7 @@ function Footer() {
       </div>
       <div>
         <h3>Made with love</h3>
-        <p>{date}</p>
+        <p>Current date: {date}</p>
       </div>
     </FooterSection>
   );
