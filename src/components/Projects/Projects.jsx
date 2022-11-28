@@ -17,10 +17,7 @@ function Projects() {
   });
   return (
     <ProjectsSection
-      id="projects"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 2 }}
+    
     >
       <H2
         initial={{ opacity: 0, scale: 1 }}
@@ -32,13 +29,15 @@ function Projects() {
         {text}
         <Cursor cursorColor="#946e26" />
       </H2>
-      <GridProjects>
+      <GridProjects
+        id="projects"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+      >
         <Card
           repository={"https://github.com/sebiten/personal-website"}
           url={"https://sebdevspace.netlify.app"}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
           projects={projects.website}
           imgtech={imgtech.html}
           imgtech2={imgtech.css}
@@ -51,9 +50,6 @@ function Projects() {
         <Card
           repository={"https://github.com/sebiten/Personal-portfolio-2.0"}
           url={"https://sebdev.netlify.app/"}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
           projects={projects.websitetwo}
           imgtech={imgtech.react}
           imgtech2={imgtech.styled}
@@ -66,9 +62,6 @@ function Projects() {
         <Card
           repository={"https://github.com/sebiten/Spotify-2.0"}
           url={"https://lyriks-musicplayer.netlify.app/"}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
           projects={projects.musicplayer}
           imgtech={imgtech.react}
           imgtech2={imgtech.tailwind}
@@ -81,9 +74,6 @@ function Projects() {
         <Card
           repository={"https://github.com/sebiten/Music"}
           url={"https://silver-elf-d48d36.netlify.app/"}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
           projects={projects.musicfestival}
           imgtech={imgtech.html}
           imgtech2={imgtech.css}

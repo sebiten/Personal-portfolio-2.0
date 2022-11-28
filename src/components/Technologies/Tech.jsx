@@ -12,11 +12,6 @@ function Tech() {
   });
   return (
     <SectionTech
-      initial={{ opacity: 0, scale: 1 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 3 }}
     >
       <TitleTech>
         <Title
@@ -43,10 +38,10 @@ function Tech() {
         <CardTech imgtech={imgtech.styled} name={"Styled"} />
         <CardTech imgtech={imgtech.sass} name={"sass"} />
         <CardTech imgtech={imgtech.git} name={"git"} />
-        <CardTech imgtech={imgtech.vscode} name={"VsCode"} />
-        <CardTech imgtech={imgtech.strapi} name={"Strapi"} />
-        <CardTech imgtech={imgtech.redux} name={"Remix run"} />
-        <CardTech imgtech={imgtech.mui} name={"MaterialUI"} />
+        <CardTech imgtech={imgtech.redux} name={"redux"} />
+        <CardTech imgtech={imgtech.prisma} name={"Prisma"} />
+        <CardTech imgtech={imgtech.mysql} name={"Mysql"} />
+        <CardTech imgtech={imgtech.npm} name={"Npm"} />
       </ImgTechContainer>
     </SectionTech>
   );

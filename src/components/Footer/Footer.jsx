@@ -10,8 +10,8 @@ function Footer() {
         <LogoSeb src={logo} alt="" />
       </div>
       <div>
-        <h3>Made with love</h3>
-        <p>{date}</p>
+        <h3>Made with love 🖤</h3>
+        <p>Current date: {date}</p>
       </div>
     </FooterSection>
   );

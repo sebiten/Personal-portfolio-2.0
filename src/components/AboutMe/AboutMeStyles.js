@@ -6,7 +6,8 @@ export const Main = styled.main`
   height: 100%;
   padding: 10rem;
   position: relative;
-  background: rgb(43, 17, 35, 0.4);
+  background: rgb(42, 17, 35);
+
 `;
 
 export const Photo = styled.div`
@@ -49,7 +50,7 @@ export const Img = styled(motion.img)`
     height: 380px;
   }
   border-radius: 50%;
-  border: 3px solid black;
+  border: 1px solid gray;
 `
 export const AboutMeTitle = styled(motion.div)`
   display: block;

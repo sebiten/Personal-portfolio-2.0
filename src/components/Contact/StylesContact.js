@@ -15,6 +15,8 @@ export const ContactTitle = styled.h2`
   text-align: center;
   font-weight: 500;
 padding: 3rem 0 2rem 0;
+background: rgb(42, 17, 35);
+
 `
 export const SectionContact = styled.div`
 margin: 0;

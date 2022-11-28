@@ -5,6 +5,7 @@ export const FooterSection = styled.section`
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    background: rgb(42, 17, 35);
 
 `
 

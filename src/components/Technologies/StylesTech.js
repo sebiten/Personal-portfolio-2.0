@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const SectionTech = styled(motion.section)`
+export const SectionTech = styled.section`
   background-color: black;
   width: 100%;
   position: relative;

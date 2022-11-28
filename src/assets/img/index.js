@@ -6,10 +6,11 @@ import react from "../img/05-tec.png";
 import git from "../img/git.png";
 import vscode from "../img/vscode.png";
 import vite from '../img/vite.png'
-import remix from '../img/remix.png'
-import strapi from '../img/strapi.png'
+import prisma from '../img/prisma.svg'
+import npm from '../img/npm.webp'
 import mui from '../img/mui.png'
-import redux from '../img/Redux.png'
+import mysql from '../img/mysql.webp'
+import redux from '../img/redux.png'
 
 
 import tailwind from "../img/tailwind.png";
@@ -32,9 +33,9 @@ export const imgtech = {
   vscode,
   tailwind,
   vite,
-  remix,
-  strapi,
-  mui,
+  mysql,
+  npm,
+  prisma,
   redux
 };
 export const projects = {

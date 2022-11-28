@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { motion } from "framer-motion";
 
 
-export const GridProjects = styled.div`
+export const GridProjects = styled(motion.div)`
     display:grid;
     height: 100%;
     width: 100%;
@@ -31,7 +31,9 @@ export const H2 = styled.h2`
      margin-top: 1.5rem;
 
 `
-export const ProjectsSection = styled(motion.section)`
+export const ProjectsSection = styled.section`
     padding-top: 5rem;
-    background-color: rgb(43, 17, 35, 0.4);
+    background: rgb(42, 17, 35);
+
+
 `
