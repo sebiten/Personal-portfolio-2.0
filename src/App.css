@@ -22,6 +22,8 @@ font-family: 'Poppins', sans-serif;
 
 body {
   background: rgb(42, 17, 35);
+  scroll-behavior: smooth;
+
 
 }
 
