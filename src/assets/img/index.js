@@ -8,9 +8,8 @@ import vscode from "../img/vscode.png";
 import vite from '../img/vite.png'
 import prisma from '../img/prisma.svg'
 import npm from '../img/npm.webp'
-import mui from '../img/mui.png'
 import mysql from '../img/mysql.webp'
-import redux from '../img/redux.png'
+import next from '../img/next.svg'
 
 
 import tailwind from "../img/tailwind.png";
@@ -36,7 +35,7 @@ export const imgtech = {
   mysql,
   npm,
   prisma,
-  redux
+  next
 };
 export const projects = {
   website,
