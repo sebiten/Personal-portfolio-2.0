@@ -66,7 +66,7 @@ function Projects() {
           imgtech={imgtech.react}
           imgtech2={imgtech.tailwind}
           imgtech3={imgtech.vite}
-          imgtech4={imgtech.redux}
+          imgtech4={imgtech.vscode}
           description={
             "Music player responsive with the following technologies "
           }

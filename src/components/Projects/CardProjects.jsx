@@ -42,6 +42,7 @@ const CardProjects = styled(motion.div)`
   width: 350px;
   border: solid 2px white;
   border-radius: 10px;
+  margin: 1rem;
   background: rgba(0, 0, 0, 0.4);
 `;
 const ButtonWrapper = styled.div`
