@@ -6,7 +6,7 @@ export const Main = styled.main`
   height: 100%;
   padding: 10rem;
   position: relative;
-  background: rgb(42, 17, 35);
+  background: black;
 
 `;
 
