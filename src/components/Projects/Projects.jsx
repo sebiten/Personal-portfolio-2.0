@@ -36,15 +36,15 @@ function Projects() {
         transition={{ duration: 2 }}
       >
         <Card
-          repository={"https://github.com/sebiten/personal-website"}
-          url={"https://sebdevspace.netlify.app"}
-          projects={projects.website}
-          imgtech={imgtech.html}
-          imgtech2={imgtech.css}
-          imgtech3={imgtech.js}
-          imgtech4={imgtech.vscode}
+          repository={"https://github.com/sebiten/Kiosko-app"}
+          url={"https://kiosko-app-production-be98.up.railway.app/"}
+          projects={projects.kiosko}
+          imgtech={imgtech.next}
+          imgtech2={imgtech.tailwind}
+          imgtech3={imgtech.react}
+          imgtech4={imgtech.prisma}
           description={
-            "First Portfolio Responsive using the following technologies"
+            "Kiosko app with Prisma Tailwind and Nextjs"
           }
         ></Card>
         <Card

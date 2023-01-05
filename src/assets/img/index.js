@@ -20,6 +20,7 @@ import musicfestival from "../img/proy2.webp";
 import cripto from "../img/criptos.png";
 import popsout from "../img/popsout.png";
 import musicplayer from "../img/lyriks.png";
+import kiosko from "../img/kiosko.png";
 
 export const imgtech = {
   html,
@@ -43,5 +44,6 @@ export const projects = {
   cripto,
   popsout,
   websitetwo,
-  musicplayer
+  musicplayer,
+  kiosko
 };
