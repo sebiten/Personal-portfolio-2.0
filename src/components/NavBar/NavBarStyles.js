@@ -8,7 +8,7 @@ export const ContainerNav = styled(motion.div)`
   top: 90%;
   @media (min-width: 728px) {
     left: 49%;
-    top: 89%;
+    top: 3%;
   }
   @media (max-width: 600px ) {
     display: none;
@@ -16,7 +16,7 @@ export const ContainerNav = styled(motion.div)`
   }
   transform: translate(-50%, -50%);
   width: 400px;
-  height: 90px;
+  height: 80px;
   background: rgba(0, 0, 0, .7);
   border-radius: 10px;
   padding: .8rem .5rem;
@@ -24,11 +24,11 @@ export const ContainerNav = styled(motion.div)`
   justify-content: center;
   @media (min-width: 600px) {
     width: 600px;
-    height: 90px;
+    height: 60px;
     
   }
   @media (min-width: 759px) {
-    height: 70px;
+    height: 60px;
 
   }
 `;
@@ -37,7 +37,6 @@ export const Nav = styled.nav`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
   @media (min-width: 768px) {
   margin-top: 0;
       
@@ -50,7 +49,7 @@ justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-right: 1rem;
     background-image: linear-gradient(
     to right,

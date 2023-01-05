@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 export const Logo = styled.img`
-  width: 400px;
+  width: 300px;
   background: transparent;
   animation-name: floating;
   animation-duration: 2s;
@@ -36,8 +36,7 @@ export const Bg = styled.div`
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
-   height: 100vh;
-   width: 100%;
+
 `
 export const P = styled.p`
   background: transparent;
@@ -47,6 +46,9 @@ export const P = styled.p`
   color: white;
   margin-top:1rem;
 `;
+export const Maquina = styled.span`
+  font-size: 1.8rem;
+`
 export const Container = styled.div`
   position: relative;
   text-align: center;
