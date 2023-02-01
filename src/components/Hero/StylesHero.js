@@ -47,7 +47,7 @@ export const P = styled.p`
   margin-top:1rem;
 `;
 export const Maquina = styled.span`
-  font-size: 1.8rem;
+  font-size: 1.8  rem;
 `
 export const Container = styled.div`
   position: relative;

@@ -4,8 +4,13 @@ export const FooterSection = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
-    background: black;
+    padding: 1rem;
+    background: rgba(0,0,0, 0.2);
+
+`
+export const HomeText = styled.a`
+   color: white;
+   text-decoration: none;
 
 `
 

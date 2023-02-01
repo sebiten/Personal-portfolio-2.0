@@ -8,12 +8,9 @@ import NavBar from "../NavBar/NavBar";
 export function Hero() {
   const [text, count] = useTypewriter({
     words: [
-      "Hi! Im Sebastian Burgos",
-      "Guy-who-loves-coffe.jsx",
-      "<But loves to code more/>",
+      "Hi! nice to meet you",
+      "I am Sebastian Burgos"
     ],
-    loop: true,
-    delaySpeed: 2000,
   });
   return (
     <Container id="home">
