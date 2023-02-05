@@ -21,6 +21,7 @@ import cripto from "../img/criptos.png";
 import popsout from "../img/popsout.png";
 import musicplayer from "../img/lyriks.png";
 import kiosko from "../img/kiosko.png";
+import doghub from "../img/doghub.png"
 
 export const imgtech = {
   html,
@@ -45,5 +46,6 @@ export const projects = {
   popsout,
   websitetwo,
   musicplayer,
-  kiosko
+  kiosko,
+  doghub
 };
