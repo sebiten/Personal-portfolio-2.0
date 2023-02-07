@@ -48,18 +48,6 @@ function Projects() {
           }
         ></Card>
         <Card
-          repository={"https://github.com/sebiten/Personal-portfolio-2.0"}
-          url={"https://sebdev.netlify.app/"}
-          projects={projects.websitetwo}
-          imgtech={imgtech.react}
-          imgtech2={imgtech.styled}
-          imgtech3={imgtech.vite}
-          imgtech4={imgtech.vscode}
-          description={
-            "Second Portfolio Responsive using the following technologies"
-          }
-        ></Card>
-        <Card
           repository={"https://github.com/sebiten/Spotify-2.0"}
           url={"https://lyriks-musicplayer.netlify.app/"}
           projects={projects.musicplayer}

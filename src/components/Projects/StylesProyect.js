@@ -5,14 +5,16 @@ import { motion } from "framer-motion";
 export const GridProjects = styled(motion.div)`
     display:grid;
     height: 100%;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     margin-top: -4rem;
     grid-template-columns: repeat(1, 1fr);
     @media (min-width: 768px) {
-        grid-template-columns: repeat(2, 2fr)
+        grid-template-columns: repeat(2, 2fr);
+        
     }
     @media (min-width: 1441px) {
-        grid-template-columns: repeat(4, 2fr)
+        grid-template-columns: repeat(3, 1fr)
         
     }
     place-items: center;

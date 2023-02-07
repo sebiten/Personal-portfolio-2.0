@@ -10,7 +10,7 @@ export const ContainerNav = styled(motion.div)`
     left: 49%;
     top: 3%;
   }
-  @media (max-width: 600px ) {
+  @media (max-width: 706px ) {
     display: none;
       
   }
@@ -49,7 +49,7 @@ justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1 rem;
     margin-right: 1rem;
     background-image: linear-gradient(
     to right,
