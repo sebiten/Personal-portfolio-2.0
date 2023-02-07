@@ -71,6 +71,18 @@ function Projects() {
             "Festival Music Responsive with the following technologies"
           }
         ></Card>
+        <Card
+          repository={"https://github.com/sebiten/Doghub"}
+          url={"https://doghubs.netlify.app/"}
+          projects={projects.doghub}
+          imgtech={imgtech.next}
+          imgtech2={imgtech.tailwind}
+          imgtech3={imgtech.vscode}
+          imgtech4={imgtech.react}
+          description={
+            "Doghub site with the following technologies"
+          }
+        ></Card>
       </GridProjects>
     </ProjectsSection>
   );
