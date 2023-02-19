@@ -73,7 +73,7 @@ function Projects() {
         ></Card>
         <Card
           repository={"https://github.com/sebiten/Doghub"}
-          url={"https://doghubs.netlify.app/"}
+          url={"https://doghub.up.railway.app/"}
           projects={projects.doghub}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
