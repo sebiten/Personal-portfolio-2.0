@@ -13,7 +13,7 @@ function Footer() {
       </div> */}
       <div>
         <h3>Made with love 🖤</h3>
-        <p>last update: 02/01/2023</p>
+        <p>last update: 22/02/2023</p>
       </div>
     </FooterSection>
   );
