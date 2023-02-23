@@ -1,16 +1,11 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-
-
 export const Logo = styled.img`
-  width: 300px;
   background: transparent;
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation: floating 2s ease-in-out infinite;
   overflow: hidden;
+  width: 300px;
   @keyframes floating {
     0% {
       transform: translate(0, 0px);
@@ -23,51 +18,48 @@ export const Logo = styled.img`
     }
   }
 `;
-export const Bg = styled.div`
-  position: absolute;
-  top: 50%;
-  @media (min-width: 768px) {
-  top: 50%;
-      
-  }
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  position: relative;
 
-`
 export const P = styled.p`
   background: transparent;
-  font-weight: 500;
-  text-align: center;
-  font-size: 1.5rem;
   color: white;
-  margin-top:1rem;
-`;
-export const Maquina = styled.span`
-  font-size: 1.8  rem;
-`
-export const Container = styled.div`
-  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
   text-align: center;
+`;
+
+export const Maquina = styled.span`
+  font-size: 1.8rem;
+`;
+
+export const Container = styled.div`
   height: 100vh;
   position: relative;
-    --s: 100px; 
+  text-align: center;
   --c1: #3b1123;
   --c2: #000;
   --c3: var(--amarillo);
-
-  background: var(--c1)
+  background: var(--c1);
 `;
-export const Centered = styled.div`
+
+export const Bg = styled.div`
+  height: 100%;
+  left: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
-  background-color: transparent;
-  
+  width: 100%;
+  @media (min-width: 768px) {
+    top: 50%;
+  }
+  background: rgba(0, 0, 0, 0.5);
+`;
+
+export const Centered = styled.div`
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 `;
 
 export const SocialIcons = styled(motion.div)`
@@ -76,10 +68,11 @@ export const SocialIcons = styled(motion.div)`
   justify-content: center;
   margin-top: 1rem;
 `;
+
 export const A = styled.a`
-  text-decoration: none;
   color: white;
   margin-bottom: 2rem;
+  text-decoration: none;
   &:hover {
     transform: scale(110%);
   }
