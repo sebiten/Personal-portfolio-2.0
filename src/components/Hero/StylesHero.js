@@ -55,15 +55,11 @@ export const Container = styled.div`
   height: 100vh;
   position: relative;
     --s: 100px; 
-  --c1: #2b1123;
+  --c1: #3b1123;
   --c2: #000;
   --c3: var(--amarillo);
-  
-  --_s: calc(2*var(--s)) calc(2*var(--s));
-  background:
-    calc( .7*var(--s)),
-    conic-gradient(from 90deg at 20% 20%,var(--c2) 50%,var(--c1) 0) 
-     0 0/var(--s) var(--s);
+
+  background: var(--c1)
 `;
 export const Centered = styled.div`
   position: absolute;
