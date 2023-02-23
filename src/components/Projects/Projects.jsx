@@ -37,7 +37,7 @@ function Projects() {
       >
         <Card
           repository={"https://github.com/sebiten/Kiosko-app"}
-          url={"https://kiosko-app-production-be98.up.railway.app/"}
+          url={"kiosko.up.railway.app"}
           projects={projects.kiosko}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
