@@ -37,7 +37,7 @@ function Projects() {
       >
         <Card
           repository={"https://github.com/sebiten/Kiosko-app"}
-          url={""}
+          url={"https://kiosko.up.railway.app/"}
           projects={projects.kiosko}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
@@ -49,7 +49,7 @@ function Projects() {
         ></Card>
         <Card
           repository={"https://github.com/sebiten/Spotify-2.0"}
-          url={""}
+          url={"https://lyriks-musicplayer.netlify.app/"}
           projects={projects.musicplayer}
           imgtech={imgtech.react}
           imgtech2={imgtech.tailwind}
@@ -61,7 +61,7 @@ function Projects() {
         ></Card>
         <Card
           repository={"https://github.com/sebiten/Music"}
-          url={""}
+          url={"https://silver-elf-d48d36.netlify.app"}
           projects={projects.musicfestival}
           imgtech={imgtech.html}
           imgtech2={imgtech.css}
@@ -73,7 +73,7 @@ function Projects() {
         ></Card>
         <Card
           repository={"https://github.com/sebiten/Doghub"}
-          url={""}
+          url={"https://doghubs.netlify.app/"}
           projects={projects.doghub}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
