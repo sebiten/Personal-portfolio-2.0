@@ -4,7 +4,7 @@ import {
   H2,
   ProjectsSection,
 } from "./StylesProyect";
-
+import arnoa from "../../assets/img/arnoa.png";
 import { projects } from "../../assets/img/index";
 import { imgtech } from "../../assets/img/index";
 import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
@@ -60,15 +60,15 @@ function Projects() {
           }
         ></Card>
         <Card
-          repository={"https://github.com/sebiten/Music"}
-          url={"https://silver-elf-d48d36.netlify.app"}
-          projects={projects.musicfestival}
-          imgtech={imgtech.html}
-          imgtech2={imgtech.css}
-          imgtech3={imgtech.js}
-          imgtech4={imgtech.sass}
+          repository={"https://github.com/sebiten/Arnoa-Srl"}
+          url={"https://arnoa-srl-production.up.railway.app/"}
+          projects={arnoa}
+          imgtech={imgtech.next}
+          imgtech2={imgtech.tailwind}
+          imgtech3={imgtech.react}
+          imgtech4={imgtech.vscode}
           description={
-            "Festival Music Responsive with the following technologies"
+            "Arnoa SRL Website with the following technologies"
           }
         ></Card>
         <Card

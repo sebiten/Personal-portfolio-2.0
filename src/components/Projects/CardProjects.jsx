@@ -104,6 +104,7 @@ const Techimg = styled.img`
   width: 30px;
   height: 30px;
   margin: 1rem auto;
+  background-size: cover;
 `;
 const ProjectImg = styled.img`
   width: 300px;

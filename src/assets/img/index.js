@@ -10,6 +10,8 @@ import prisma from '../img/prisma.svg'
 import npm from '../img/npm.webp'
 import mysql from '../img/mysql.webp'
 import next from '../img/next.svg'
+import arnoa from '../img/arnoa.png'
+
 
 
 import tailwind from "../img/tailwind.png";
@@ -37,7 +39,9 @@ export const imgtech = {
   mysql,
   npm,
   prisma,
-  next
+  next,
+  arnoa,
+
 };
 export const projects = {
   website,
