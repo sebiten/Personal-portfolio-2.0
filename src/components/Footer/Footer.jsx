@@ -1,23 +1,23 @@
-import logo from "../../assets/img/sebdevspace.png";
+import logo from "../../assets/img/logosb.png";
 import { Img } from "../Hero/StylesHero";
-import { FooterSection , HomeText, Image } from "./StylesFooter";
+import { FooterSection, A , Image } from "./StylesFooter";
 
 function Footer() {
   const current = new Date();
-  const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+  const date = `${current.getDate()}/${
+    current.getMonth() + 1
+  }/${current.getFullYear()}`;
   return (
     <FooterSection>
-      <a
-        href="/"
-      >
-        <Image
-          src="src\assets\img\logo.png"
-         />
-      </a>
-      <div>
-        <h3>Made with love 🖤</h3>
-        <p>last update: 28/02/2023</p>
-      </div>
+        <A href="/">
+         Back to home
+        </A>
+        <A href="/">
+          [ SB ]
+        </A>
+        <A href="/">
+          {date}
+        </A>
     </FooterSection>
   );
 }

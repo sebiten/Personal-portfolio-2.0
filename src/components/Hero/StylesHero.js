@@ -58,10 +58,10 @@ export const Bg = styled.div`
 
 export const Img = styled.img`
   height: 100px ;
-  width: 70px;
+  width: 130px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -30px;
+  left: -40px;
   opacity: 0.4;
 `;
 

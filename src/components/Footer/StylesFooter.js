@@ -11,9 +11,20 @@ export const HomeText = styled.a`
   text-decoration: none;
 `;
 export const Image = styled.img`
-  width: 70px;
+  width: 200px;
   height: 100px;
   margin: 0 auto;
+`;
+export const A = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  padding-right: 1.7rem;
 `;
 
 export const TextFooter2 = styled.h2`
