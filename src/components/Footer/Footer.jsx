@@ -1,6 +1,6 @@
-import logo from "../../assets/img/logosb.png";
+import logosb from "../../assets/img/gg.png";
 import { Img } from "../Hero/StylesHero";
-import { FooterSection, A , Image } from "./StylesFooter";
+import { FooterSection, A, Image } from "./StylesFooter";
 
 function Footer() {
   const current = new Date();
@@ -9,15 +9,13 @@ function Footer() {
   }/${current.getFullYear()}`;
   return (
     <FooterSection>
-        <A href="/">
-         Back to home
-        </A>
-        <A href="/">
-          [ SB ]
-        </A>
-        <A href="/">
-          {date}
-        </A>
+      <A href="/">Made with love</A>
+      <A href="/">
+        <img 
+        style={{ width: "60px", height: "60px" }}
+        src={logosb} alt="logo" />
+      </A>
+      <A href="/">{date}</A>
     </FooterSection>
   );
 }

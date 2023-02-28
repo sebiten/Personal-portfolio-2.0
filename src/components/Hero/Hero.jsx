@@ -2,7 +2,7 @@ import avatar from "../../assets/img/avatar.png";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
 import { ImGithub } from "react-icons/im";
-import logosb from "../../assets/img/logosb.png";
+import logosb from "../../assets/img/gg.png";
 import {
   Container,
   Centered,
@@ -45,6 +45,9 @@ export function Hero() {
         </SocialIcons>
       </Centered>
       <NavBar />
+      <Img
+        src={logosb}
+      />
     </Container>
   );
 }
