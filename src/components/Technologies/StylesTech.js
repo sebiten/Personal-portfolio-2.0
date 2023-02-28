@@ -12,7 +12,7 @@ export const Title = styled(motion.h2)`
   color: white;
   text-align: center;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   padding: 5rem;
   @media (min-width: 768px) {
        padding: 6rem;
@@ -45,7 +45,7 @@ export const ImgTechContainer = styled.div`
   
   }
   @media (min-width: 1200px ) {
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(4, 3fr);
   }
   width: 50%;
   margin: 0 auto;
@@ -61,6 +61,6 @@ export const TechInfo = styled.div`
   width: 90%;
 `;
 export const Img = styled.img`
-  width: 120px;
-  height: 105px;
+  width: 110px;
+  height: 100px;
 `;

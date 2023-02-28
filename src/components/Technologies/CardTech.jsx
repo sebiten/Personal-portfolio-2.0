@@ -16,7 +16,7 @@ function CardTech({ imgtech, description, name }) {
 const Span = styled.span`
   width: 100%;
   height: 50px;
-  background: rgba(249, 249, 249, 0.2);
+  background: rgba(249, 249, 249, 0.1);
   border-radius: 10px;
   padding: 0.2rem 2rem;
 `;
@@ -29,8 +29,9 @@ const Container = styled.div`
 `;
 const TechName = styled.h2`
   text-transform: uppercase;
+  font-weight: 500;
   margin: 1.5rem;
-  font-size: 19px;
+  font-size: 15px;
 `;
 
 export default CardTech;

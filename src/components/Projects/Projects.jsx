@@ -9,6 +9,7 @@ import { projects } from "../../assets/img/index";
 import { imgtech } from "../../assets/img/index";
 import { Typewriter, Cursor, useTypewriter } from "react-simple-typewriter";
 import Card from "./CardProjects";
+import jp from "../../assets/img/jp.png";
 
 function Projects() {
   const [text, count] = useTypewriter({
@@ -72,15 +73,15 @@ function Projects() {
           }
         ></Card>
         <Card
-          repository={"https://github.com/sebiten/Doghub"}
-          url={"https://doghubs.netlify.app/"}
-          projects={projects.doghub}
+          repository={"https://github.com/sebiten/movie-app"}
+          url={"https://movie-app-production-9127.up.railway.app/"}
+          projects={jp}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
           imgtech3={imgtech.vscode}
           imgtech4={imgtech.react}
           description={
-            "Doghub site with the following technologies"
+            "Simple Movie app with the following technologies"
           }
         ></Card>
       </GridProjects>

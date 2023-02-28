@@ -42,6 +42,10 @@ function Tech() {
         <CardTech imgtech={imgtech.prisma} name={"Prisma"} />
         <CardTech imgtech={imgtech.mysql} name={"Mysql"} />
         <CardTech imgtech={imgtech.npm} name={"Npm"} />
+        <CardTech imgtech={imgtech.postman} name={"Postan"} />
+        <CardTech imgtech={imgtech.mongodb} name={"MongoDB"} />
+        <CardTech imgtech={imgtech.terminal} name={"Postman"} />
+        <CardTech imgtech={imgtech.vscode} name={"VS code"} />
       </ImgTechContainer>
     </SectionTech>
   );
