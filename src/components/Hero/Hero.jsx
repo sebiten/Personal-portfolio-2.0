@@ -11,6 +11,7 @@ import {
   SocialIcons,
   A,
   Maquina,
+  Img,
 } from "./StylesHero";
 import NavBar from "../NavBar/NavBar";
 
@@ -43,6 +44,7 @@ export function Hero() {
         </SocialIcons>
       </Centered>
       <NavBar />
+      <Img src="src\assets\img\SB-logo.png" alt="scroll down" />
     </Container>
   );
 }

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 
 export const GridProjects = styled(motion.div)`
-    display:grid;
+    display:grid; 
     height: 100%;
     width: 100%;
     margin-top: -4rem;

@@ -5,7 +5,7 @@ export const FooterSection = styled.section`
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0,0,0, 0.5);
 
 `
 export const HomeText = styled.a`
@@ -13,6 +13,11 @@ export const HomeText = styled.a`
    text-decoration: none;
 
 `
+export const Image = styled.img`
+    width: 80px;
+    height: 100px;
+`
+
 
 export const LogoSeb  = styled.img`
     width: 200px;

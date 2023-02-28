@@ -34,3 +34,9 @@ p{
 h1, h2, h3 {
   color: white;
 }
+.iconlogo {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  color: white;
+}

@@ -48,7 +48,7 @@ align-items: center;
 justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1 rem;
     margin-right: 1rem;
     background-image: linear-gradient(

@@ -30,6 +30,7 @@ export const P = styled.p`
 
 export const Maquina = styled.span`
   font-size: 1.8rem;
+  font-weight: 500;
 `;
 
 export const Container = styled.div`
@@ -54,6 +55,16 @@ export const Bg = styled.div`
   }
   background: rgba(0, 0, 0, 0.5);
 `;
+
+export const Img = styled.img`
+  height: 100px ;
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+`;
+
 
 export const Centered = styled.div`
   left: 50%;
