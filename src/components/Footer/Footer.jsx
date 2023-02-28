@@ -1,6 +1,6 @@
 import logo from "../../assets/img/sebdevspace.png";
 import { Img } from "../Hero/StylesHero";
-import { LogoSeb, FooterSection , HomeText, Image } from "./StylesFooter";
+import { FooterSection , HomeText, Image } from "./StylesFooter";
 
 function Footer() {
   const current = new Date();
@@ -11,7 +11,7 @@ function Footer() {
         href="/"
       >
         <Image
-          src="src\assets\img\SB-logo.png"
+          src="src\assets\img\logo.png"
          />
       </a>
       <div>

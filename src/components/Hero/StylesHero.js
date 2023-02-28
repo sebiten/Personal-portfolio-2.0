@@ -58,7 +58,7 @@ export const Bg = styled.div`
 
 export const Img = styled.img`
   height: 100px ;
-  width: 80px;
+  width: 70px;
   position: absolute;
   bottom: 0;
   left: 0;

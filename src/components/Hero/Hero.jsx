@@ -44,7 +44,7 @@ export function Hero() {
         </SocialIcons>
       </Centered>
       <NavBar />
-      <Img src="src\assets\img\SB-logo.png" alt="scroll down" />
+      <Img src="src\assets\img\logo.png" alt="scroll down" />
     </Container>
   );
 }
