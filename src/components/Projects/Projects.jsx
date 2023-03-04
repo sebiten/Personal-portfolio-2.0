@@ -62,7 +62,7 @@ function Projects() {
         ></Card>
         <Card
           repository={"https://github.com/sebiten/Arnoa-Srl"}
-          url={"https://arnoa-srl-production.up.railway.app/"}
+          url={"https://voluble-faun-a86bf8.netlify.app/"}
           projects={arnoa}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
@@ -74,7 +74,7 @@ function Projects() {
         ></Card>
         <Card
           repository={"https://github.com/sebiten/movie-app"}
-          url={"https://movie-app-production-9127.up.railway.app/"}
+          url={"https://earnest-pithivier-e91468.netlify.app/"}
           projects={jp}
           imgtech={imgtech.next}
           imgtech2={imgtech.tailwind}
